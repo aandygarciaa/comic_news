@@ -1,0 +1,194 @@
+* { box-sizing: border-box; }
+
+body {
+	background-color: #000000;
+	color: #ffffff;
+	margin: 0px;
+	padding: 0px;
+
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+#container {
+	margin-right: auto;
+	margin-left: auto;
+	padding: 0px;
+}
+
+nav {
+	font-family: Arial, Helvetica, sans-serif;
+	background-color: #00aeef;
+	
+	padding: 15px;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.mmlink {
+	color: #ffffff;
+	font-size: 12px;
+	text-align: center;
+	text-transform: uppercase;
+	text-decoration: none;
+
+	padding-right: 30px;
+	padding-left: 30px;
+}
+
+#banner {
+	
+}
+
+header {
+	font-family: 'Oswald', sans-serif;
+	color: #ffad00;
+	font-size: 100px;
+	font-weight: 800;
+	text-align: center;
+	letter-spacing: 0px;
+	text-transform: uppercase;
+
+	padding-bottom: 0px;
+	margin: 0px;
+}
+
+#bannerh1 {
+	font-family: "Courier New", Courier, monospace;
+	color: #ffffff;
+	font-size: 18px;
+	font-weight: 100;	
+	letter-spacing: 15px;
+	text-transform: uppercase;
+	
+	padding-top: 0px;
+	margin: 0px;
+}
+
+.article {
+	width: 600px;
+
+	padding: 25px;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+#topnews {
+	background-color: #ffffff;
+	color: #000000;
+
+	padding: 0px;
+	margin-top: 0px;
+}
+
+.articleheader {
+	font-size: 20px;
+	font-weight: 700;
+	text-transform: uppercase;
+	border-bottom: solid 1px #00aeef;
+
+	padding-bottom: 8px;
+	margin: 0px;
+}
+
+.op a {
+	color: #00aeef;
+	text-decoration: none;
+}
+
+p {
+	text-align: justify;
+}
+
+h2 {
+	margin-bottom: 0px;
+	padding-bottom: 0px;
+}
+
+h3 {
+	margin-top: 0px;
+	padding-top: 0px;
+}
+
+.moreact {
+	font-size: 14px;
+	margin: left;
+}
+
+.moreact a {
+	color: #00aeef;
+	text-decoration: none;
+}
+
+.moreact a:hover {
+	color: #0086b9;
+}
+
+#dccomics {
+	background-color: #c2e9ef;
+	color: #000000;
+
+	padding: 0px;
+	margin-top: 0px;
+}
+
+@media screen and (max-width:900px) {
+	#container {
+	}
+
+	.mmlink {
+		padding-right: 20px;
+		padding-left: 20px;
+	}
+
+	#banner { border: 5px solid red; }
+	
+	header { font-size: 80px; }
+	#bannerh1 { font-size: 17px; letter-spacing: 5px; }
+
+	p  { font-size: 13px; }
+}
+
+@media screen and (max-width:500px) {
+	#containter {
+	}
+
+	nav {
+		width: 100%;
+	}
+
+	.mmlink {
+		display: block;
+		padding: 10px;
+	}
+
+	img {
+		width: 100%;
+		height: auto;
+	}
+
+	header { font-size: 40px; }
+
+	#bannerh1 { font-size: 14px; letter-spacing: 3px; }
+
+	.article {
+		width: 100%;
+		height: 100%;
+		margin:0px;
+	}
+
+	#topnews {
+		width: 100%;
+		margin:0px;
+	}
+
+
+
+	.sidebar {
+		width: 100%;
+		position: static;
+	}
+
+	#banner { border: 5px solid green; }
+	p  { font-size: 10px; }
+
+}
