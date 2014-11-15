@@ -86,6 +86,10 @@ nav {
 	padding: 80px;
 }
 
+#who {
+	margin-bottom: 50px;
+}
+
 #who-h1 {
 	color: #000000;
 	font-size: 15px;
@@ -159,18 +163,47 @@ hr {
 	margin-left: auto;
 }
 
-.moreact {
+#stages-container {
+	background-color: #ffffff;
+	color: #000000;
+
+	margin: 0px;
+	padding: 75px 50px 75px 50px;
+}
+
+#senrorimotor {
+
+}
+
+.stages-title {
+	font-size: 19px;
+	text-align: center;
+	margin: 0px;
+	text-transform: uppercase;
+}
+
+.stages-ages {
+	color: #585b57;
 	font-size: 14px;
-	margin: left;
+	text-align: center;
+	text-transform: uppercase;
 }
 
-.moreact a {
-	color: #00aeef;
-	text-decoration: none;
+#sensorimotor {
+	padding-top: 37px;
+	padding-bottom: 75px;
 }
 
-.moreact a:hover {
-	color: #0086b9;
+#preoperational {
+	padding-bottom: 75px;
+}
+
+#concrete {
+	padding-bottom: 75px;
+}
+
+#formal {
+	padding-bottom: 37px;
 }
 
 @media screen and (max-width:900px) {
@@ -181,13 +214,6 @@ hr {
 		padding-right: 20px;
 		padding-left: 20px;
 	}
-
-	#banner { border: 5px solid red; }
-	
-	header { font-size: 80px; }
-	#bannerh1 { font-size: 17px; letter-spacing: 5px; }
-
-	p  { font-size: 13px; }
 }
 
 @media screen and (max-width:640px) {
@@ -201,32 +227,4 @@ hr {
 	.mmlink {
 		display: block;
 		padding: 10px;
-	}
-
-	#header-container {
-		width: 100%;
-	}
-
-	img {
-		width: 100%;
-		height: auto;
-	}
-
-	.article {
-		width: 100%;
-		height: 100%;
-		margin:0px;
-	}
-
-	#topnews {
-		width: 100%;
-		margin:0px;
-	}
-
-	.sidebar {
-		width: 100%;
-		position: static;
-	}
-
-	p  { font-size: 10px; }
-]
+}
