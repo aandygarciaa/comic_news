@@ -40,14 +40,24 @@ nav {
 
 #header-container {
 	background-color: #ffffff;
-	background: url("../_images/banner-classroom.png");
+	background: url("../_images/mobile-chalkboard.png");
 
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
 	background-size: cover;
 	background-position: center center;
-	height: 500px;
+	height: 640px;
+}
+
+#mobile-logo {
+	text-align: center;
+	padding: 50px 25px 25px 25px;
+}
+
+#scroll-pointer {
+	text-align: center;
+	margin-top: 100px;
 }
 
 #header-h1 {
@@ -92,9 +102,9 @@ nav {
 
 #who-h1 {
 	color: #000000;
-	font-size: 15px;
+	font-family: 'Lobster', cursive;
+	font-size: 20px;
 	text-align: center;
-	text-transform: uppercase;
 
 	padding: 0px 0px 0px 0px;
 	margin: 0px;
@@ -112,9 +122,9 @@ nav {
 
 #what-h1 {
 	color: #000000;
-	font-size: 15px;
+	font-family: 'Lobster', cursive;
+	font-size: 20px;
 	text-align: center;
-	text-transform: uppercase;
 
 	padding: 75px 0px 0px 0px;
 	margin: 0px;
@@ -137,6 +147,7 @@ hr {
 .whoandwhat-view {
 	font-size: 12px;
 	text-align: center;
+	letter-spacing: 3px;
 	text-transform: uppercase;
 	padding: 25px 0px 0px 0px;
 
@@ -145,8 +156,9 @@ hr {
 }
 
 .view-link {
-	background-color: #000000;
-	color: #ffffff;
+	background-color: transparent;
+	color: #000000;
+	border: solid 1px #000000;
 	padding: 10px 15px 10px 15px;
 
 	margin-right: auto;
@@ -154,9 +166,8 @@ hr {
 }
 
 .view-link:hover {
-	background-color: transparent;
-	color: #000000;
-	border: solid 1px #000000;
+	background-color: #000000;
+	color: #ffffff;
 	padding: 10px 15px 10px 15px;
 
 	margin-right: auto;
@@ -204,6 +215,11 @@ hr {
 
 #formal {
 	padding-bottom: 37px;
+}
+
+.stages-banner-img {
+	width: 100%;
+	height: 100%;
 }
 
 @media screen and (max-width:900px) {
