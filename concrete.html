@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+  <html>
+    <head>
+      
+        <title>Concrete Operational Stage</title>
+
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link href='http://fonts.googleapis.com/css?family=Lobster' rel='stylesheet' type='text/css'>
+
+        <link rel="stylesheet" href="_css/stylesheet.css">
+        
+        <style>
+            body {
+                padding-top: 50px;
+                padding-bottom: 20px;
+            }
+        </style>
+
+    </head>
+    <body>
+
+      <div id="container">
+
+        <nav>
+          <a class="mmlink newstoppad" href="newsfeed.html"> Jean Piaget </a>
+          <a class="mmlink" href="marvel.html"> The Theory </a>
+          <a class="mmlink" href="dccomics.html"> The Stages </a>
+          <a class="mmlink contactpad" href="films.html"> Check List </a>
+        </nav>
+
+<!-- Header -->
+
+        <div id="header-container-stage">
+          <img id="stagepage-logo" src="_images/piaget-logo-white.png" height="360" width="360" alt="">
+          <header class="stagepage-header">Concrete Operational Stage</header>
+        </div>
+
+<!-- Who and What -->
+      
+        
+
+      </div>
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+        <script type="text/javascript">
+
+          $(document).ready(function() {
+            console.log('Am I Working?');
+
+            $('a.item').mouseover(item_over);
+            $('a.item').mouseout(item_out);
+
+            function item_over() {
+              var theItem = $(this);
+              var theTint = theItem.find('.stages-tint');
+              var theAge  = theItem.find('.ages');
+
+              theTint.stop(true).animate({'opacity':'0'});
+              theAge. stop(true).animate({'opacity':'0'});
+            }
+          
+            function item_out() {
+              var theItem = $(this);
+              var theTint = theItem.find('.stages-tint');
+              var theAge  = theItem.find('.ages');
+
+              theTint.stop(true).animate({'opacity':'2'});
+              theAge.stop(true).animate({'opacity':'2'});
+            }
+
+          });
+
+        </script>
+
+    </body>
+  </html>

@@ -52,7 +52,7 @@ nav {
 
 #mobile-logo {
 	text-align: center;
-	padding: 50px 25px 25px 25px;
+	padding: 50px;
 }
 
 #scroll-pointer {
@@ -186,7 +186,7 @@ hr {
 
 }
 
-.stages-title {
+.stage-title {
 	font-size: 19px;
 	text-align: center;
 	margin: 0px;
@@ -198,6 +198,7 @@ hr {
 	font-size: 14px;
 	text-align: center;
 	text-transform: uppercase;
+	padding: 25px;
 }
 
 #sensorimotor {
@@ -217,9 +218,24 @@ hr {
 	padding-bottom: 37px;
 }
 
-.stages-banner-img {
+.stages-img {
 	width: 100%;
 	height: 100%;
+}
+
+#header-container-stage {
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#stagepage-logo {
+	padding: 50px;
+}
+
+.stagepage-header {
+	font-size: 25px;
+	text-align: center;
 }
 
 @media screen and (max-width:900px) {
@@ -243,4 +259,44 @@ hr {
 	.mmlink {
 		display: block;
 		padding: 10px;
+	}
+
+	.stages-img {
+		width:100%;
+		height: 110%;
+	}
+
+.item {
+	margin-bottom: 50px;
+}
+
+a.item .stages-tint {
+	color: #ffffff;
+	width:100%;
+	height: 100%;
+	background-color: rgba(0,0,0, .7);
+	position:absolute;
+	left:0px;
+	bottom: 0px;
+	padding:15px;
+}
+
+.stages-tint h2 {
+	color: #ffffff;
+	font-weight: 100;
+	font-size: 14px;
+	text-align: center;
+	text-transform: uppercase;
+	opacity:0;
+}
+
+a.item {
+	height: 100%;
+	display:inline-block;
+	overflow:hidden;
+	position:relative;
+	text-decoration: none;
+	}
+
+
 }
