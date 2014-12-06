@@ -175,8 +175,8 @@ hr {
 }
 
 #stages-container {
-	background-color: #ffffff;
-	color: #000000;
+	background-color: #000000;
+	color: #ffffff;
 
 	margin: 0px;
 	padding: 75px 50px 75px 50px;
@@ -187,9 +187,11 @@ hr {
 }
 
 .stage-title {
-	font-size: 19px;
+	font-size: 20px;
+	font-weight: 100;
+	letter-spacing: 1px;
 	text-align: center;
-	margin: 0px;
+	margin-bottom: 10px;
 	text-transform: uppercase;
 }
 
@@ -276,10 +278,11 @@ a.item .stages-tint {
 .stages-tint h2 {
 	color: #ffffff;
 	font-weight: 100;
-	font-size: 14px;
+	font-size: 12px;
 	text-align: center;
 	text-transform: uppercase;
 	opacity:0;
+	margin-top: 30px;
 }
 
 a.item {

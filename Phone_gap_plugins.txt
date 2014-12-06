@@ -4,8 +4,14 @@
     <param name="APP_NAME" value="..." />
 </gap:plugin>
 
+Has direct correlation with the Facebook
+
 —SocialSharing—
 <gap:plugin name="nl.x-services.plugins.socialsharing" version="4.3.8" />
 
+Allows connecting to social media websites like Twitter.
+
 —Keyboard—
 <gap:plugin name="com.ionic.keyboard" version="1.0.3" />
+
+Allows usage of the iOS keyboard
