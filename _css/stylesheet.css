@@ -3,7 +3,7 @@
 a {text-decoration: none;}
 
 body {
-	background-color: #000000;
+	background-color: #ffffff;
 	color: #ffffff;
 	margin: 0px;
 	padding: 0px;
@@ -21,10 +21,8 @@ body {
 nav {
 	font-family: Arial, Helvetica, sans-serif;
 	background-color: #000000;
-	
-	padding: 15px;
-	margin-right: auto;
-	margin-left: auto;
+	padding: 25px;
+	text-align: center;
 }
 
 .mmlink {
@@ -34,13 +32,14 @@ nav {
 	text-transform: uppercase;
 	text-decoration: none;
 
-	padding-right: 30px;
-	padding-left: 30px;
+	padding-right: 25px;
+	padding-left: 25px;
 }
+
 
 #header-container {
 	background-color: #ffffff;
-	background: url("../_images/mobile-chalkboard.png");
+	background: url("../_images/geotexture.jpg");
 
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
@@ -50,9 +49,25 @@ nav {
 	height: 640px;
 }
 
+#header-container h1 {
+	color: #f7941e;
+	font-size: 50px;
+	text-transform: uppercase;
+	margin-bottom: 0px;
+}
+
+#header-container h2 {
+	color: #ffffff;
+	font-size: 13px;
+	letter-spacing: 3px;
+	text-transform: uppercase;
+	font-weight: 100;
+	margin-bottom: 0px;
+}
+
 #mobile-logo {
 	text-align: center;
-	padding: 50px;
+	padding: 150px 50px 50px 50px;
 }
 
 #scroll-pointer {
@@ -85,14 +100,6 @@ nav {
 
 #whoandwhat {
 	background-color: #ffffff;
-	background: url("../_images/whoandwhat_texture.png");
-
-	-webkit-background-size: cover;
-	-moz-background-size: cover;
-	-o-background-size: cover;
-	background-size: cover;
-	background-position: center center;
-
 	padding: 80px;
 }
 
@@ -101,7 +108,7 @@ nav {
 }
 
 #who-h1 {
-	color: #000000;
+	color: #f7941e;
 	font-family: 'Lobster', cursive;
 	font-size: 20px;
 	text-align: center;
@@ -111,7 +118,7 @@ nav {
 }
 
 #who-h2 {
-	color: #000000;
+	color: #111723;
 	font-size: 30px;
 	text-align: center;
 	text-transform: uppercase;
@@ -121,7 +128,7 @@ nav {
 }
 
 #what-h1 {
-	color: #000000;
+	color: #f7941e;
 	font-family: 'Lobster', cursive;
 	font-size: 20px;
 	text-align: center;
@@ -131,7 +138,7 @@ nav {
 }
 
 #what-h2 {
-	color: #000000;
+	color: #111723;
 	font-size: 30px;
 	text-align: center;
 	text-transform: uppercase;
@@ -157,8 +164,8 @@ hr {
 
 .view-link {
 	background-color: transparent;
-	color: #000000;
-	border: solid 1px #000000;
+	color: #111723;
+	border: solid 1px #111723;
 	padding: 10px 15px 10px 15px;
 
 	margin-right: auto;
@@ -166,7 +173,7 @@ hr {
 }
 
 .view-link:hover {
-	background-color: #000000;
+	background-color: #111723;
 	color: #ffffff;
 	padding: 10px 15px 10px 15px;
 
@@ -175,90 +182,21 @@ hr {
 }
 
 #stages-container {
-	background-color: #000000;
+	width: 800px;
 	color: #ffffff;
-
-	margin: 0px;
-	padding: 75px 50px 75px 50px;
-}
-
-#senrorimotor {
-
-}
-
-.stage-title {
-	font-size: 20px;
-	font-weight: 100;
-	letter-spacing: 1px;
-	text-align: center;
-	margin-bottom: 10px;
-	text-transform: uppercase;
-}
-
-#sensorimotor {
-	padding-top: 37px;
-	padding-bottom: 75px;
-}
-
-#preoperational {
-	padding-bottom: 75px;
-}
-
-#concrete {
-	padding-bottom: 75px;
-}
-
-#formal {
-	padding-bottom: 37px;
-}
-
-.stages-img {
-	width: 100%;
-	height: 100%;
-}
-
-#header-container-stage {
-	text-align: center;
-	margin-left: auto;
+	font-family: 'Roboto', sans-serif;
 	margin-right: auto;
+	margin-left: auto;
+	padding: 75px 50px 75px 50px;
+
+	background: url("../_images/geotexture-dark.png");
+
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	background-position: center center;
 }
-
-#stagepage-logo {
-	padding: 50px;
-}
-
-.stagepage-header {
-	font-size: 25px;
-	text-align: center;
-}
-
-@media screen and (max-width:900px) {
-	#container {
-	}
-
-	.mmlink {
-		padding-right: 20px;
-		padding-left: 20px;
-	}
-}
-
-@media screen and (max-width:640px) {
-	#containter {
-	}
-
-	nav {
-		width: 100%;
-	}
-
-	.mmlink {
-		display: block;
-		padding: 10px;
-	}
-
-	.stages-img {
-		width:100%;
-		height: 110%;
-	}
 
 .item {
 	margin-bottom: 50px;
@@ -291,7 +229,286 @@ a.item {
 	overflow:hidden;
 	position:relative;
 	text-decoration: none;
+}
+
+.stage-title {
+	font-family: 'Lobster', cursive;
+	color: #f7941e;
+	font-size: 35px;
+	font-weight: 300;
+	text-align: center;
+	margin-bottom: 10px;
+	padding-top: 20px;
+
+}
+
+#border-cancel {
+	border: none;
+}
+
+.ages {
+	letter-spacing: 2px;
+}
+
+#sensorimotor {
+	padding-top: 37px;
+	padding-bottom: 75px;
+}
+
+#preoperational {
+	padding-bottom: 75px;
+}
+
+#concrete {
+	padding-bottom: 75px;
+}
+
+#formal {
+	padding-bottom: 37px;
+}
+
+.stages-img {
+	width: 100%;
+	height: 100%;
+}
+
+#header-stage-container {
+	background: url("../_images/geotexture.jpg");
+
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	background-position: center center;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#stagepage-logo {
+	padding: 50px;
+}
+
+.stage-info-container {
+	padding: 0px;
+}
+
+.stagepage-header {
+	font-family: 'Lobster', cursive;
+	color: #f7941e;
+	font-size: 33px;
+	font-weight: 200;
+	border-bottom: solid 1px black;
+	padding: 75px 0px 10px 0px;
+}
+
+.info-white-p {
+	color: #111723;
+	background-color: #ffffff;
+	padding: 0px 25px 75px 25px;
+}
+
+.info-white-p p {
+	font-family: 'Roboto', sans-serif;
+	font-weight: 300;
+	line-height: 1.5;
+	text-align: justify;
+}
+
+.info-white-p h1 {
+	font-family: 'Roboto', sans-serif;
+	color: #0b0b0e;
+	text-transform: uppercase;
+	padding: 75px 0px 0px 0px;
+	margin: 0px;
+}
+
+.info-white-p h2 {
+	font-family: 'Lobster', cursive;
+	color: #f7941e;
+	font-size: 29px;
+	padding: 0px 0px 10px 0px;
+	margin: 0px;
+	border-bottom: solid 1px #0b0b0e;
+}
+
+.info-dark {
+	width: 100%;
+	height: 100%
+	color: #ffffff;
+	padding: 75px 25px 75px 25px;
+
+	background: url("../_images/geotexture-dark.png");
+
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	background-position: center center;
+}
+
+.info-dark h1 {
+	color: #ffffff;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 500;
+	font-size: 20px;
+	text-transform: uppercase;
+	margin-bottom: 0px;
+}
+
+.info-dark h2 {
+	color: #eca800;
+	font-family: 'Lobster', cursive;
+	font-size: 33px;
+	border-bottom: solid 1px #ffffff;
+	margin: 0px 0px 0px 0px;
+	padding: 0px 0px 10px 0px;
+}
+
+.info-dark p {
+	font-family: 'Roboto', sans-serif;
+	font-weight: 100;
+	line-height: 1.5;
+	text-align: justify;
+}
+
+.info-dark-singlehead {
+	color: #eca800;
+	font-family: 'Lobster', cursive;
+	font-size: 30px;
+	padding: 0px 0px 10px 0px;
+	margin: 0px;
+	border-bottom: solid 1px #ffffff;
+}
+
+.evaluation {
+	background-color: #f7941e;
+	padding: 75px 25px 75px 25px;
+}
+
+.evaluation p {
+	font-family: 'Roboto', sans-serif;
+	color: #0b0b0e;
+	font-size: 12px;
+	font-weight: 300;
+	line-height: 1.5;
+	text-align: justify;
+}
+
+.evaluation h1 {
+	font-family: 'Roboto', sans-serif;
+	color: #0b0b0e;
+	font-size: 20px;
+	text-transform: uppercase;
+	padding: 0px;
+	margin: 0px;
+}
+
+.evaluation h2 {
+	font-family: 'Lobster', cursive;
+	font-size: 33px;
+	padding: 0px 0px 10px 0px;
+	margin: 0px;
+	border-bottom: solid 1px #0b0b0e;
+}
+
+.evaluation h3 {
+	font-family: 'Roboto', sans-serif;
+	color: #ffffff;
+	font-size: 40px;
+	text-transform: uppercase;
+	padding: 0px 0px 10px 0px;
+	margin: 0px;
+	border-bottom: solid 1px #0b0b0e;
+}
+
+.youtube {
+	padding: 25px;
+}
+
+.img-container {
+	width: 100%;
+}
+
+.bold-colored {
+	color: #eca800;
+}
+
+.numbered-li {
+	color: #0b0b0e;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 300;
+	line-height: 1.5;
+	text-align: justify;
+}
+
+.whowhat-container {
+	width: 100px;
+	background-color: #ffffff;
+	padding: 75px 25px 75px 25px;
+}
+
+.whowhat-container h1 {
+	color: #eca800;
+	font-family: 'Lobster', cursive;
+	font-size: 50px;
+	text-align: center;
+	margin: 0px;
+}
+
+
+#piagetbubble {
+	width: 100px;
+	text-align: center;
+
+}
+
+.whowhat-container p {
+	color: #0b0b0e;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 300;
+	text-align: justify;
+}
+
+#pagebreak-img {
+	width: 100%;
+	padding: 0px;
+	margin: 0px;
+	text-align: center;
+}
+
+footer {
+	color: #ffffff;
+	background-color: #0b0b0e;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 100;
+	letter-spacing: 1px;
+	font-size: 10px;
+	text-align: center;
+	padding: 5px;
+}
+
+@media screen and (max-width:900px) {
+
+	.mmlink {
+		padding-right: 20px;
+		padding-left: 20px;
+	}
+}
+
+@media screen and (max-width:640px) {
+
+	nav {
+		width: 100%;
 	}
 
+	.stages-img {
+		width:100%;
+		height: 110%;
+	}
 
+	#stages-container {
+		width: 100%;
+		height: 100%;
+	}
 }

@@ -8,13 +8,12 @@
 
         <link href='http://fonts.googleapis.com/css?family=Lobster' rel='stylesheet' type='text/css'>
 
+        <link href='http://fonts.googleapis.com/css?family=Roboto:400,100,300,500,700,900' rel='stylesheet' type='text/css'>
+
         <link rel="stylesheet" href="_css/stylesheet.css">
         
         <style>
-            body {
-                padding-top: 50px;
-                padding-bottom: 20px;
-            }
+
         </style>
 
     </head>
@@ -23,51 +22,107 @@
       <div id="container">
 
         <nav>
-          <a class="mmlink newstoppad" href="newsfeed.html"> Jean Piaget </a>
-          <a class="mmlink" href="marvel.html"> The Theory </a>
-          <a class="mmlink" href="dccomics.html"> The Stages </a>
-          <a class="mmlink contactpad" href="films.html"> Check List </a>
+          <a class="mmlink newstoppad" href="jeanpiaget.html"> Jean Piaget </a>
+          <a class="mmlink" href="thetheory.html"> The Theory </a>
+          <a class="mmlink" href="index.html"> The Stages </a>
         </nav>
 
 <!-- Header -->
 
-        <div id="header-container-stage">
-          <img id="stagepage-logo" src="_images/piaget-logo-white.png" height="360" width="360" alt="">
-          <header class="stagepage-header">Concrete Operational Stage</header>
+        <div id="header-container">
+          <div id="mobile-logo">
+            <img src="_images/logo/brain-wb.png" height="130" width="130">
+            <h1>Jean Piaget</h1>
+            <h2>stages in cognitive development</h2>
+          </div>
+          <div id="scroll-pointer">
+            <img src="_images/scroll-pointer.png" height="30" width="30">
+          </div>
         </div>
 
-<!-- Who and What -->
-      
+<!-- Stage Info -->
+
+      <div class="stage-info-container">
+        <article class="info-white-p">
+          <header class="stagepage-header">Concrete Operational Stage</header>
+          <p>
+            Concrete Operational Stage
+            by Saul McLeod email icon published 2010
+          </p>
+          <p>
+            Piaget (1954a) considered the concrete stage a major turning point in the child's cognitive development, because it marks the beginning of logical or operational thought.
+          </p>
+          <p>
+            The child is now mature enough to use logical thought or operations (i.e. rules) but can only apply logic to physical objects (hence concrete operational). 
+          </p>
+          <p>
+            Children become less egocentric and better at conservation tasks.  This means that the child understands that although the appearance of something changes, the thing itself does not.
+          </p>
+          <p>
+            For example, if you take two pieces of string that are the same length and scrunch one up, a child will reply that the scrunched one is shorter if conservation hasn't yet been reached.
+          </p>
+        </article>
+
+        <article class="info-dark">
+          <h1>Conservation of</h1>
+          <h2>Liquid and Number</h2>
+          <p>
+            Children in the concrete operational stage are typically ages 7 to 11.  They gain the abilities of conservation (number, area, volume, orientation) and reversibility.  Their thinking is more organized and rational.  They can solve problems in a logical fashion, but are typically not able to think abstractly or hypothetically.
+          </p>
+          <p>
+            By around seven years the majority of children can conserve liquid (see video below), because they understand that when water is poured into a different shaped glass, the quantity of liquid remains the same, even though its appearance has changed.  Five-year-old children would think that there was a different amount because the appearance has changed.
+          </p>
+          <iframe class="youtube" width="420" height="315" src="http://www.youtube.com/embed/2-cYdZkhycI" frameborder="0" allowfullscreen></iframe>
+          <p>
+            Conservation of number (see video below) develops soon after this.  Piaget (1954b) set out a row of counters in front of the child and asked her/him to make another row the same as the first one.  Piaget spread out his row of counters and asked the child if there were still the same number of counters.
+          </p>
+          <p>
+            Most children aged seven could answer this correctly, and Piaget concluded that this showed that by seven years of age children were able to conserve number.
+          </p>
+          <iframe class="youtube" width="420" height="315" src="http://www.youtube.com/embed/jWQZR6uWxLM" frameborder="0" allowfullscreen></iframe>
+        </article>
         
+        <article class="evaluation">
+          <h1>Evaluation of</h1>
+          <h2>Concrete Stage Features</h2>
+            <p>
+              Several aspects of the conservation tasks have been criticized, for example that they fail to take account of the social context of the child's understanding.
+            </p>
+            <p>
+              Rose and Blank (1974) argued that when a child gives the wrong answer to a question, we repeat the question in order to hint that their first answer was wrong.  This is what Piaget did by asking children the same question twice in the conservation experiments, before and after the transformation.
+            </p>
+            <p>
+              When Rose and Blank replicated this but asked the question only once, after the liquid had been poured, they found many more six-year-olds gave the correct answer.  This shows children can conserve at a younger age than Piaget claimed.
+            </p>
+            <p>
+              Another feature of the conservation task which may interfere with children's under-standing is that the adult purposely alters the appearance of something, so the child thinks this alteration is important.  McGarrigle and Donaldson (1974) devised a study of conservation of number in which the alteration was accidental.
+            </p>
+            <p>
+              When two identical rows of sweets were laid out and the child was satisfied there were the same number in each, a 'naughty teddy' appeared.  Whilst playing around, teddy actually messed up one row of sweets.  Once he was safely back in a box the children were asked if there were the same number of sweets.
+            </p>
+            <p>
+              The children were between four- and six-years-old, and more than half gave the correct answer.  This suggests that, once again, Piaget's design prevented the children from showing that they can conserve at a younger age than he claimed.
+            </p>
+        </article>
+
+        <footer>&copy; 2014 Jean Piaget's Stages of Congnitive Development All rights reserved.</footer>
+
+      </div>
 
       </div>
 
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+        <script src="http://code.jquery.com/ui/1.11.2/jquery-ui.js"></script>
         <script type="text/javascript">
 
           $(document).ready(function() {
             console.log('Am I Working?');
 
-            $('a.item').mouseover(item_over);
-            $('a.item').mouseout(item_out);
-
-            function item_over() {
-              var theItem = $(this);
-              var theTint = theItem.find('.stages-tint');
-              var theAge  = theItem.find('.ages');
-
-              theTint.stop(true).animate({'opacity':'0'});
-              theAge. stop(true).animate({'opacity':'0'});
-            }
-          
-            function item_out() {
-              var theItem = $(this);
-              var theTint = theItem.find('.stages-tint');
-              var theAge  = theItem.find('.ages');
-
-              theTint.stop(true).animate({'opacity':'2'});
-              theAge.stop(true).animate({'opacity':'2'});
-            }
+          $(function() {
+            $( "#accordion" ).accordion({
+              collapsible: true
+            });
+          });
 
           });
 

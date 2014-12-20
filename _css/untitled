@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+  <html>
+    <head>
+      
+        <title>Concrete Operational Stage</title>
+
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link href='http://fonts.googleapis.com/css?family=Lobster' rel='stylesheet' type='text/css'>
+
+        <link href='http://fonts.googleapis.com/css?family=Roboto:400,100,300,500,700,900' rel='stylesheet' type='text/css'>
+
+        <link rel="stylesheet" href="_css/stylesheet.css">
+        
+        <style>
+            body {
+                padding-top: 50px;
+                padding-bottom: 20px;
+            }
+        </style>
+
+    </head>
+    <body>
+
+      <div id="container">
+
+        <nav>
+          <a class="mmlink newstoppad" href="newsfeed.html"> Jean Piaget </a>
+          <a class="mmlink" href="marvel.html"> The Theory </a>
+          <a class="mmlink" href="dccomics.html"> The Stages </a>
+          <a class="mmlink contactpad" href="films.html"> Check List </a>
+        </nav>
+
+<!-- Header -->
+
+        <div id="header-stage-container">
+          <img id="stagepage-logo" src="_images/piaget-logo-white.png" height="360" width="360" alt="">
+        </div>
+
+<!-- Stage Info -->
+
+      <div class="stage-info-container">
+        <article class="info-white-p">
+          <header class="stagepage-header">Sensorimotor Stage</header>
+          <p>
+            The preoperational stage ranges from about ages 2 to 7 (Piaget, 1951, 1952). Children in this stage can mentally represent events and objects (the semiotic function), and engage in symbolic play. 
+          </p>
+          <p>
+            Their thoughts and communications are typically egocentric (i.e. about themselves).
+          </p>
+          <p>
+            Egocentrism refers to the child's inability to see a situation from another person's point of view. According to Piaget, the egocentric child assumes that other people see, hear, and feel exactly the same as the child does. Piaget wanted to find out at what age children decenter - i.e. become no longer egocentric.
+          </p>
+          <p>
+            Another key feature which children display during this stage is animism. Animism is the belief that inanimate objects (such as toys and teddy bears) have human feelings and intentions.
+          </p>
+          <img class="img-container" src="_images/objectperm.png" alt="">
+        </article>
+
+        <article class="info-dark">
+          <h1>Object Permanence Experiment</h1>
+          <h2>Blanket and Ball Study</h2>
+          <p class="info-dark-p">
+            <b class="bold-colored">Aim:</b> Piaget (1963) wanted to investigate at what age children acquire object permanence.
+          </p>
+          <p class="info-dark-p">
+            <b class="bold-colored">Method:</b> Piaget hid a toy under a blanket, while the child was watching, and observed whether or not the child searched for the hidden toy. Searching for the hidden toy was evidence of object permanence. Piaget assumed that the child could only search for a hidden toy if s/he had a mental representation of it.
+          </p>
+          <p class="info-dark-p">
+            <b class="bold-colored">Results:</b> Piaget found that infants searched for the hidden toy when they were around 8-months-old.
+          </p>
+          <p class="info-dark-p">
+            <b class="bold-colored">Conclusion:</b> Children around 8 months have object permanence because they are able to form a mental representation of the object in their minds.
+          </p>
+        </article>
+        <article class="info-white-p">
+          <h1>Evaluation</h1>
+            <p>
+              Piaget assumed the results of his study occur because the children under 8 months did not understand that the object still existed underneath the blanket (and therefore did not reach for it). However, there are alternative reasons why a child may not search for an object:
+            </p>
+            <p>
+              The child could become distracted or loose interest in the object and therefore the lack motivation to search for it, or simply may not have the physical coordination to carry out the motor movements necessary for the retrieval of the object.
+            </p>
+            <p>
+              There is also evidence that object permanence occurs earlier than Piaget claimed. Bower and Wishart (1972) used a lab experiment to study infants aged between 1 – 4 months old. 
+            </p>
+            <p>
+              Instead of using a Piaget’s blanket technique they waited for the infant to reach for an object, and then turned out the lights so that the object was no longer visible. They then filmed the infant using an infra red camera. They found that the infant continued to reach for the object for up to 90 seconds after it became invisible.
+            </p>
+            <p>
+              Again, just like Piaget's study there are also criticisms of Bower's 'reaching in the dark' findings. Each child had up to 3 minutes to the complete the task and reach for the object. Within this time period it is plausible they may have successfully completed the task by accident. For example randomly reaching out and finding the object or even reaching out due to the distress of the lights going out (rather than reaching out with the intention of searching for an object.
+            </p>
+          
+        </article>
+        <footer>&copy; 2014 Jean Piaget's Stages of Congnitive Development All rights reserved.</footer>
+      </div>
+
+      </div>
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+        <script src="http://code.jquery.com/ui/1.11.2/jquery-ui.js"></script>
+        <script type="text/javascript">
+
+          $(document).ready(function() {
+            console.log('Am I Working?');
+
+          $(function() {
+            $( "#accordion" ).accordion({
+              collapsible: true
+            });
+          });
+
+          });
+
+        </script>
+
+    </body>
+  </html>
